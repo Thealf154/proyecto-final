@@ -50,7 +50,6 @@ public class EjercicioSeis {
             status = (calificación > 6) ? "Aprobado ": "Reprobado";
 
             //Asignación de variables en arrays
-            nombres[i] = nombre;
         }
     }
 }
