@@ -13,10 +13,14 @@ public class EjercicioCinco {
         try {
             System.out.println("Implementación de función exponencial");
             System.out.println("Se dará las cordenadas de un rango de 0 hasta el número que escoga");
-            System.out.println("Ingrese un número entero para limitar el rango");
+            System.out.println("Ingrese un número natural para limitar el rango");
             entradas = new Scanner(System.in);
             n = entradas.nextInt();
 
+            if(n < 0) {
+                System.out.println("Ingresa un número natural");
+                main(args);
+            }
             //Ciclo para hacer el algoritmo
             for (int i = 0; i < n; i++) {
                 float expresión = (float) Math.pow(EULER, i);                
