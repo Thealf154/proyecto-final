@@ -47,11 +47,12 @@ public class EjercicioOnce {
             }
         }
 
-        // Dar todos los números en reversa
-        System.out.println("\nEl arreglo en reversa:");
-        for (int j = --N; j != -1; j--) {
-            int númeroResultante = numeros[j];
-            System.out.println(númeroResultante);
+        //Imprimir el histograma
+        for(int número : numeros){
+            System.out.printf("\nImprimiendo el número: %d\n", número);
+            for(int i = 1; i <= número; i++){
+                System.out.print("*");
+            }
         }
     }
 }
