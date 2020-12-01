@@ -49,7 +49,6 @@ public class EjercicioOnce {
 
         //Imprimir el histograma
         for(int número : numeros){
-            System.out.printf("\nImprimiendo el número: %d\n", número);
             for(int i = 1; i <= número; i++){
                 System.out.print("*");
             }
