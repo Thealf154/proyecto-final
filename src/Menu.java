@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Menu {
@@ -22,11 +21,7 @@ public class Menu {
                 EjercicioOnce.main(args);
                 break;
             case 13:
-                try {
-                    EjercicioTrece.main(args);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                EjercicioTrece.main(args);
                 break;
             case 14:
                 EjercicioCatorce.main(args);

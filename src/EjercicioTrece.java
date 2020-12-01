@@ -13,10 +13,9 @@
 */
 
 import java.util.Scanner;
-import java.io.IOException;
 
 public class EjercicioTrece {
-    public static void main(String[] args)  throws IOException {
+    public static void main(String[] args) { 
 		
         int n;
 
