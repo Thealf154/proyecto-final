@@ -34,7 +34,7 @@ public class EjercicioDiez {
                     System.out.println("Ingresa el número de letra (1, 27):");
                     númeroSolicitado = entradas.nextInt();
 
-                letraResultante = abecedario[númeroSolicitado];
+                letraResultante = abecedario[númeroSolicitado - 1];
                 System.out.println("Letra asignada al número" + "(" + i + ")" + " es: " + letraResultante);
                 System.out.println();
             } catch (IndexOutOfBoundsException e) {
