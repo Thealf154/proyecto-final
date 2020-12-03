@@ -8,8 +8,9 @@ public class EjercicioOcho {
         double angúlo;
         double seno;
 
+        System.out.println("Se ingresa un angúlo para calcular su seno");
         try {
-            System.out.println("Ingresa el ángulo que quieres");
+            System.out.println("Ingresa el angúlo quieres");
             entradas = new Scanner(System.in);
             angúlo = entradas.nextDouble();
 

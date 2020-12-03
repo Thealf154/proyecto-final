@@ -12,7 +12,7 @@ public class EjercicioCatorce {
         int posiciónMenor = 0;
         int posiciónMayor = 0;
 
-            System.out.println("Este algorimo obtiene el número mayor y menor de un arreglo con la posición original del nmúmero");
+            System.out.println("Este algoritmo obtiene el número mayor y menor de un arreglo con la posición original del nmúmero");
             System.out.println("Ingrese la cantidad de números:");
             entradas = new Scanner(System.in);
         try{

@@ -23,6 +23,7 @@ public class EjercicioOnce {
         int númeroSolicitado; // El número que el usuario desea ingresar al arreglo
         int N; // La catidad de números en el arreglo de números
 
+        System.out.println("Se dará un histograma con números que ingrese por medio de astericos");
         System.out.println("Ingrese la catidad de números a ingresar");
         entradas = new Scanner(System.in);
         N = entradas.nextInt();
