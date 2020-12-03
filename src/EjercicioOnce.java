@@ -52,6 +52,7 @@ public class EjercicioOnce {
             for(int i = 1; i <= número; i++){
                 System.out.print("*");
             }
+            System.out.println("");
         }
     }
 }
