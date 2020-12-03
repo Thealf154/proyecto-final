@@ -10,7 +10,7 @@ public class EjercicioCinco {
         float EULER = 2.718f;
         ArrayList<float[]> coordenadas = new ArrayList<>();
 
-            System.out.println("Este algormitmo da las coordenadas de una gráfica realizada a e^x desde el 0 hasta un número ingresasdo por el usuario");
+            System.out.println("Este algormitmo da las coordenadas de una gráfica realizada a e^x desde el 0 hasta un número ingresado por el usuario");
 
         try {
             System.out.println("Implementación de función exponencial");
